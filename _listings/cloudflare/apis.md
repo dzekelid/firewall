@@ -7,11 +7,67 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-clou
 x-kinRank: "9"
 x-alexaRank: "1685"
 tags: Firewall
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/apis.md
 specificationVersion: "0.14"
 apis:
+- name: CloudFlare - Search, sort, and filter IP/country access rules
+  x-api-slug: zoneszone-idfirewallaccess-rulesrules-get
+  description: Search, sort, and filter IP/country access rules
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrules-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrules-get-openapi.md
+- name: CloudFlare - Make a new IP, IP range, or country access rule for the zone
+  x-api-slug: zoneszone-idfirewallaccess-rulesrules-post
+  description: Make a new IP, IP range, or country access rule for the zone
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrules-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrules-post-openapi.md
+- name: CloudFlare - Remove an access rule so it is no longer evaluated during requests
+  x-api-slug: zoneszone-idfirewallaccess-rulesrulesidentifier-delete
+  description: Remove an access rule so it is no longer evaluated during requests
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrulesidentifier-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrulesidentifier-delete-openapi.md
+- name: CloudFlare - Update rule state and/or configuration for the zone
+  x-api-slug: zoneszone-idfirewallaccess-rulesrulesidentifier-patch
+  description: Update rule state and/or configuration for the zone
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg
+  humanURL: https://www.cloudflare.com
+  baseURL: https:///
+  tags: DNS, My API Stack, Encryption, Security, CDN, DNS New, Stack Network, internet,
+    SaaS, Technology, Enterprise, API Provider, API Service Provider, Profiles, Service
+    API, Relative Data, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrulesidentifier-patch-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/zoneszone-idfirewallaccess-rulesrulesidentifier-patch-openapi.md
 - name: CloudFlare - Search, sort, and filter IP/country access rules
   x-api-slug: zoneszone-idfirewallaccess-rulesrules-get
   description: Search, sort, and filter IP/country access rules

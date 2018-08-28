@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Firewall",
+	"description": "This is a repository of firewall APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/firewall.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://firewall.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "CloudFlare",
+			"x-api-slug": "cloudflare",
+			"description": "Here at Cloudflare, we make the Internet work the way it should. Offering CDN, DNS, DDoS protection and security, find out how we can help your site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18929-cloudflare.jpg",
+			"humanURL": "https://www.cloudflare.com",
+			"baseURL": "https:///",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WAF",
+			"x-api-slug": "aws-waf",
+			"description": "AWS WAF is a web application firewall that helps protect your webapplications from common web exploits that could affect applicationavailability, compromise security, or consume excessive resources. AWSWAF gives you control over which traffic to allow or block to your webapplications by defining customizable web security rules. You can use AWSWAF to create custom rules that block common attack patterns, such as SQLinjection or cross-site scripting, and rules that are designed for your specific application. New rules can be deployed within minutes, letting you respondquickly to changing traffic patterns. Also, AWS WAF includes a full-featuredAPI that you can use to automate the creation, deployment, and maintenanceof web security rules.With AWS WAF you pay only for what you use. AWS WAF pricing is based on how many rules you deploy and how many web requests your web application receives. There are no upfront commitments.You can deploy AWS WAF on either Amazon CloudFront as part of your CDN solution or the Application Load Balancer (ALB) that fronts your web servers or origin servers running on EC2.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png",
+			"humanURL": "https://aws.amazon.com/waf/",
+			"baseURL": ":///",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/aws-waf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Compute Engine",
+			"x-api-slug": "google-compute-engine",
+			"description": "Google Compute Engine delivers virtual machines running in Googles innovative data centers and worldwide fiber network. Compute Engines tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png",
+			"humanURL": "https://cloud.google.com/compute/",
+			"baseURL": "://www.googleapis.com//compute/v1/projects",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/google-compute-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"x-api-slug": "azure-data-lake-analytics",
+			"description": "The Data Lake analytics service is a new distributed analytics service built on Apache YARN that dynamically scales so you can focus on your business goals, not on distributed infrastructure. Instead of deploying, configuring and tuning hardware, you write queries to transform your data and extract valuable insights. The analytics service can handle jobs of any scale instantly by simply setting the dial for how much power you need. You only pay for your job when it is running making it cost-effective. The analytics service supports Azure Active Directory letting you simply manage access and roles, integrated with your on-premises identity system. It also includes U-SQL, a language that unifies the benefits of SQL with the expressive power of user code. U-SQL&rsquo;s scalable distributed runtime enables you to efficiently analyze data in the store and across SQL Servers in Azure, Azure SQL Database and Azure SQL Data Warehouse.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-analytics/",
+			"baseURL": ":////",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-analytics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"x-api-slug": "azure-data-lake-store",
+			"description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads. For example, data can be ingested in real-time from sensors and devices for IoT solutions, or from online shopping websites into the store without the restriction of fixed limits on account or file size unlike current offerings in the market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-store/",
+			"baseURL": ":////",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Redis Cache",
+			"x-api-slug": "azure-redis-cache",
+			"description": "Azure Redis Cache is based on the popular open source Redis cache. It gives you access to a secure, dedicated Redis cache, managed by Microsoft and accessible from any application within Azure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cache/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-redis-cache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure SQL Database",
+			"x-api-slug": "azure-sql-database",
+			"description": "Make building and maintaining applications easier and more productive. With built-in intelligence that learns app patterns and adapts to maximize performance, reliability, and data protection, SQL Database is a cloud database built for developers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/sql-database/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Firewall",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-sql-database/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Firewall",
+	"include": [
+		{
+			"name": "CloudFlare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/cloudflare/apis.yaml"
+		},
+		{
+			"name": "AWS WAF",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/aws-waf/apis.yaml"
+		},
+		{
+			"name": "Google Compute Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/google-compute-engine/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Analytics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-analytics/apis.yaml"
+		},
+		{
+			"name": "Azure Data Lake Store",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/apis.yaml"
+		},
+		{
+			"name": "Azure Redis Cache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-redis-cache/apis.yaml"
+		},
+		{
+			"name": "Azure SQL Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-sql-database/apis.yaml"
+		}
+	]
+}

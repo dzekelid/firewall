@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CloudFlare
 x-complete: 1
@@ -130,4 +129,3 @@ paths:
           description: OK
       tags:
       - Firewall Access Rule
----

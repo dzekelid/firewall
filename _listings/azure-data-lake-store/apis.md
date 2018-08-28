@@ -14,11 +14,188 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Firewall
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put
+  description: Creates or updates the specified firewall rule. During update, the
+    firewall rule with the specified name will be replaced with this new firewall
+    rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch
+  description: Updates the specified firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete
+  description: Deletes the specified firewall rule from the specified Data Lake Store
+    account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get
+  description: Gets the specified Data Lake Store firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules List By Account
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get
+  description: Lists the Data Lake Store firewall rules within the specified Data
+    Lake Store account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put
+  description: Creates or updates the specified firewall rule. During update, the
+    firewall rule with the specified name will be replaced with this new firewall
+    rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch
+  description: Updates the specified firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete
+  description: Deletes the specified firewall rule from the specified Data Lake Store
+    account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get
+  description: Gets the specified Data Lake Store firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules List By Account
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get
+  description: Lists the Data Lake Store firewall rules within the specified Data
+    Lake Store account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules List By Account
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get
+  description: Lists the Data Lake Store firewall rules within the specified Data
+    Lake Store account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Get
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get
+  description: Gets the specified Data Lake Store firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Delete
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete
+  description: Deletes the specified firewall rule from the specified Data Lake Store
+    account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch
+  description: Updates the specified firewall rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch-openapi.md
+- name: DataLakeStoreFileSystemManagementClient - Firewall Rules Create Or Update
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put
+  description: Creates or updates the specified firewall rule. During update, the
+    firewall rule with the specified name will be replaced with this new firewall
+    rule.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-store/
+  baseURL: :////
+  tags: Data, Storage, Microsoft, Stack Network, API Service Provider, API Provider,
+    Databases, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/firewall/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.data.lake.analytics.api.gallery.streamdata.io
